@@ -1,0 +1,38 @@
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1250">
+    <title>JavaScript</title>
+
+    <script type="text/javascript">
+       function mis() {
+         confirm("Da li ste sigurni?");
+       }
+
+       function greeting() {
+         alert("Dobrodosli na ovu stranicu");
+       }
+	   
+	   function funkcija() {
+         var v = "write_html.html";
+		 return v;
+       }
+    </script>
+
+  </head>
+
+  <body onLoad="greeting()">
+    <h1>JavaScript događaji</h1>
+
+    <p>
+      Događaji koje svojom akcijom izazove korisnik ili web čitač mogu biti
+      obrađeni JavaScript kodom. Prilikom učitavanja ove stranice automatski će
+      biti pozvana jedna JavaScript funkcija. Pored toga, možete da pređete
+      mišem preko ovog <a href="primer09.html" onMouseOver="mis()">linka</a>.
+    </p>
+
+	<a href="javascript:funkcija()"> klikni</a>
+
+  </body>
+
+</html>
