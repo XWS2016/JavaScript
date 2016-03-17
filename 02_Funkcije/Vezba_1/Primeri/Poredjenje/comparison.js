@@ -3,7 +3,7 @@ console.log('1 === "1"\tis', 1 === '1');		// false
 
 // Poređenje stringova i brojeva operatorima nejednakosti vrši leksičko poređenje stringova.
 console.log('1 >= "1"\tis', 1 >= '1');			// true
-console.log('1 >= "2"\tis', 1 >= '2');			// true
+console.log('1 >= "2"\tis', 1 >= '2');			// false
 console.log('11 >= "3"\tis', 11 >= '3');		// true
 
 // Poređenje objekata

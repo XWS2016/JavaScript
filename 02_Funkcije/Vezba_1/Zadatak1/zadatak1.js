@@ -10,7 +10,7 @@ var petar = {
   startost: 25,
   jezici: ['Srpski', 'Engleski', 'Nemacki'],
   mestoStanovanja: {
-    ulica: 'Petrova'
+    ulica: 'Petrova',
     broj: '1'
   }
 };
@@ -21,7 +21,7 @@ var petarCopy = {
   startost: 25,
   jezici: ['Srpski', 'Engleski', 'Nemacki'],
   mestoStanovanja: {
-    ulica: 'Petrova'
+    ulica: 'Petrova',
     broj: '1'
   }
 };
