@@ -7,6 +7,7 @@ Proširiti modele Zadatka 2:
 * Napraviti tipove soba: *Apartman*, *Radni kabinet*, *Jednokrevetna*, *Dvokreventa* i *Četvorokrevetna*
 * Napraviti tipove osoba *Fizičko* i *Pravno lice*
 * Inicijalni tip *Osoba* proširiti atributom ``dete`` koji govori da li je osoba dete, kao i ``string: odseo`` atributom koji govori u kom hotelu i kojoj sobi je smeštena osoba.
+* Proširiti metodu za rezervaciju sobe da kao parameter prima neku akciju koja će biti izvršena nakon rezervacije sobe (callback)
 
 Osoba
 ====
@@ -54,7 +55,7 @@ Poslovni hotel ima 2 apartmana, a poslovni hotel 1 dvokrevetnu i 1 četvorokreve
 Instancirati Fizičko lice otac koji ima ženu i dvoje dece i rezervisati im sobu u Porodičnom hotelu.
 Pozvati metodu koja će odvesti porodicu na ručak, zatim decu smestiti u igraonicu, a roditelje u bioskop.
 
-Instancirati Pravno lice, smestiti ga u Poslovni hotel u apartman. Zakazati sastanak za pravno lice. 
+Instancirati Pravno lice, smestiti ga u Poslovni hotel u apartman i u istoj metodi proslediti akciju za zakazivanje sastanka. 
 
 Za sve osobe ispisati gde su odsele. 
 
